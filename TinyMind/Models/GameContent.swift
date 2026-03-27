@@ -2,22 +2,22 @@ import SwiftUI
 
 struct GameContent {
     static let animals: [GameItem] = [
-        GameItem(id: "cat", category: .animal, displayName: "Кошка", emoji: "🐱", soundFile: "cat_sound", phrase: "Это кошка! Мяу!"),
-        GameItem(id: "dog", category: .animal, displayName: "Собака", emoji: "🐶", soundFile: "dog_sound", phrase: "Это собака! Гав-гав!"),
-        GameItem(id: "cow", category: .animal, displayName: "Корова", emoji: "🐮", soundFile: "cow_sound", phrase: "Это корова! Муу!"),
-        GameItem(id: "horse", category: .animal, displayName: "Лошадь", emoji: "🐴", soundFile: "horse_sound", phrase: "Это лошадь! Иго-го!"),
-        GameItem(id: "chicken", category: .animal, displayName: "Курочка", emoji: "🐔", soundFile: "chicken_sound", phrase: "Это курочка! Ко-ко-ко!"),
-        GameItem(id: "duck", category: .animal, displayName: "Уточка", emoji: "🦆", soundFile: "duck_sound", phrase: "Это уточка! Кря-кря!"),
-        GameItem(id: "pig", category: .animal, displayName: "Свинка", emoji: "🐷", soundFile: "pig_sound", phrase: "Это свинка! Хрю-хрю!"),
-        GameItem(id: "sheep", category: .animal, displayName: "Овечка", emoji: "🐑", soundFile: "sheep_sound", phrase: "Это овечка! Бее!"),
-        GameItem(id: "lion", category: .animal, displayName: "Лев", emoji: "🦁", soundFile: "lion_sound", phrase: "Это лев! Рррр!"),
-        GameItem(id: "elephant", category: .animal, displayName: "Слон", emoji: "🐘", soundFile: "elephant_sound", phrase: "Это слон!"),
-        GameItem(id: "frog", category: .animal, displayName: "Лягушка", emoji: "🐸", soundFile: "frog_sound", phrase: "Это лягушка! Ква-ква!"),
-        GameItem(id: "bird", category: .animal, displayName: "Птичка", emoji: "🐦", soundFile: "bird_sound", phrase: "Это птичка! Чик-чирик!"),
-        GameItem(id: "monkey", category: .animal, displayName: "Обезьянка", emoji: "🐵", soundFile: "monkey_sound", phrase: "Это обезьянка!"),
-        GameItem(id: "mouse", category: .animal, displayName: "Мышка", emoji: "🐭", soundFile: "mouse_sound", phrase: "Это мышка! Пи-пи!"),
-        GameItem(id: "rabbit", category: .animal, displayName: "Зайчик", emoji: "🐰", soundFile: "rabbit_sound", phrase: "Это зайчик!"),
-        GameItem(id: "bear", category: .animal, displayName: "Мишка", emoji: "🐻", soundFile: "bear_sound", phrase: "Это мишка! Рррр!"),
+        GameItem(id: "cat", category: .animal, displayName: "Кошка", emoji: "🐱", imageName: "cat", soundFile: "cat_sound", phrase: "Это кошка! Мяу!"),
+        GameItem(id: "dog", category: .animal, displayName: "Собака", emoji: "🐶", imageName: "dog", soundFile: "dog_sound", phrase: "Это собака! Гав-гав!"),
+        GameItem(id: "cow", category: .animal, displayName: "Корова", emoji: "🐮", imageName: "cow", soundFile: "cow_sound", phrase: "Это корова! Муу!"),
+        GameItem(id: "horse", category: .animal, displayName: "Лошадь", emoji: "🐴", imageName: "horse", soundFile: "horse_sound", phrase: "Это лошадь! Иго-го!"),
+        GameItem(id: "chicken", category: .animal, displayName: "Курочка", emoji: "🐔", imageName: "chicken", soundFile: "chicken_sound", phrase: "Это курочка! Ко-ко-ко!"),
+        GameItem(id: "duck", category: .animal, displayName: "Уточка", emoji: "🦆", imageName: "duck", soundFile: "duck_sound", phrase: "Это уточка! Кря-кря!"),
+        GameItem(id: "pig", category: .animal, displayName: "Свинка", emoji: "🐷", imageName: "pig", soundFile: "pig_sound", phrase: "Это свинка! Хрю-хрю!"),
+        GameItem(id: "sheep", category: .animal, displayName: "Овечка", emoji: "🐑", imageName: "sheep", soundFile: "sheep_sound", phrase: "Это овечка! Бее!"),
+        GameItem(id: "lion", category: .animal, displayName: "Лев", emoji: "🦁", imageName: "lion", soundFile: "lion_sound", phrase: "Это лев! Рррр!"),
+        GameItem(id: "elephant", category: .animal, displayName: "Слон", emoji: "🐘", imageName: "elephant", soundFile: "elephant_sound", phrase: "Это слон!"),
+        GameItem(id: "frog", category: .animal, displayName: "Лягушка", emoji: "🐸", imageName: "frog", soundFile: "frog_sound", phrase: "Это лягушка! Ква-ква!"),
+        GameItem(id: "bird", category: .animal, displayName: "Птичка", emoji: "🐦", imageName: "bird", soundFile: "bird_sound", phrase: "Это птичка! Чик-чирик!"),
+        GameItem(id: "monkey", category: .animal, displayName: "Обезьянка", emoji: "🐵", imageName: "monkey", soundFile: "monkey_sound", phrase: "Это обезьянка!"),
+        GameItem(id: "mouse", category: .animal, displayName: "Мышка", emoji: "🐭", imageName: "mouse", soundFile: "mouse_sound", phrase: "Это мышка! Пи-пи!"),
+        GameItem(id: "rabbit", category: .animal, displayName: "Зайчик", emoji: "🐰", imageName: "rabbit", soundFile: "rabbit_sound", phrase: "Это зайчик!"),
+        GameItem(id: "bear", category: .animal, displayName: "Мишка", emoji: "🐻", imageName: "bear", soundFile: "bear_sound", phrase: "Это мишка! Рррр!"),
     ]
 
     static let instruments: [GameItem] = [

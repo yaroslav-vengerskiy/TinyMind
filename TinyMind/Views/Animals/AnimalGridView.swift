@@ -114,8 +114,16 @@ struct AnimalCardView: View {
     var body: some View {
         Button(action: onTap) {
             VStack(spacing: 8) {
-                Text(item.emoji)
-                    .font(.system(size: 70))
+                if let imageName = item.imageName,
+                   let uiImage = UIImage(named: imageName) ?? loadBundleImage(imageName) {
+                    Image(uiImage: uiImage)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 100, height: 100)
+                } else {
+                    Text(item.emoji)
+                        .font(.system(size: 70))
+                }
 
                 Text(item.displayName)
                     .font(.system(size: 20, weight: .bold, design: .rounded))
@@ -129,5 +137,12 @@ struct AnimalCardView: View {
             .animation(.spring(response: 0.3, dampingFraction: 0.5), value: isTapped)
         }
         .buttonStyle(.plain)
+    }
+
+    private func loadBundleImage(_ name: String) -> UIImage? {
+        if let url = Bundle.main.url(forResource: name, withExtension: "png") {
+            return UIImage(contentsOfFile: url.path)
+        }
+        return nil
     }
 }

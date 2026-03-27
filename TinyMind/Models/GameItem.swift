@@ -12,8 +12,20 @@ struct GameItem: Identifiable, Hashable {
     let category: GameCategory
     let displayName: String
     let emoji: String
+    let imageName: String?      // PNG файл в Resources/Images (без расширения)
     let soundFile: String?
     let phrase: String?         // фраза для озвучки: "Это кошка! Мяу!"
+
+    /// Для инструментов и других без картинки
+    init(id: String, category: GameCategory, displayName: String, emoji: String, imageName: String? = nil, soundFile: String?, phrase: String?) {
+        self.id = id
+        self.category = category
+        self.displayName = displayName
+        self.emoji = emoji
+        self.imageName = imageName
+        self.soundFile = soundFile
+        self.phrase = phrase
+    }
 }
 
 enum GameMode: String, CaseIterable, Identifiable {
