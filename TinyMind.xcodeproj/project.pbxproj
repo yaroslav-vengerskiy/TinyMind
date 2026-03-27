@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EA1CE971FC285C0530D2DBE /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4C303A7C0F3947059C82B /* SoundPlayer.swift */; };
+		54918B9B31A1E34282585898 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FCF8973698A5B94C870D22 /* HomeView.swift */; };
+		56ED5E862F5F8CBE862D1EE2 /* GameItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF4E26EF559E0D79ECD871 /* GameItem.swift */; };
+		8D70D25DAAE896FD615B42CB /* StarBurstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06F57365C4CFB22D0DA590 /* StarBurstView.swift */; };
+		99F1203C499C0A0FFC4AEE72 /* GameContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3D407837A29B97D42B12F2 /* GameContent.swift */; };
+		B7F881F225808DEE52D3290D /* MusicPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B0941C5C412254272D0B9F /* MusicPanelView.swift */; };
+		BFD223A158EE814E000CE18B /* AnimalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2496913928CDDA5976112A /* AnimalGridView.swift */; };
+		CAA21922C195A834A3E745A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94727C7C37C68E93BD2D864A /* ContentView.swift */; };
+		CD6392A858BFBB5586C9BE6A /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125F1ACCC3666C653D7706A7 /* BackButton.swift */; };
+		CD840F45A08888A874453DDB /* GameContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC04DF88F763E22E60BC1C8 /* GameContentTests.swift */; };
+		DC8E44A14E3E28F458C3D007 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B39AC1CBC11666F70411E3 /* HapticManager.swift */; };
+		DE89D7D39336AF4F24F73EA5 /* TinyMindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598969516E52C579EC75C8F /* TinyMindApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42183539254169C93D69EC25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 652203B84E4077B5C38E3E79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8928902DF6B624EB053ACCA2;
+			remoteInfo = TinyMind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F06F57365C4CFB22D0DA590 /* StarBurstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBurstView.swift; sourceTree = "<group>"; };
+		125F1ACCC3666C653D7706A7 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		356797ABA9991234738FC09E /* TinyMind.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TinyMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B4C303A7C0F3947059C82B /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		4E2496913928CDDA5976112A /* AnimalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridView.swift; sourceTree = "<group>"; };
+		5598969516E52C579EC75C8F /* TinyMindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyMindApp.swift; sourceTree = "<group>"; };
+		57B39AC1CBC11666F70411E3 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		72B0941C5C412254272D0B9F /* MusicPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPanelView.swift; sourceTree = "<group>"; };
+		7A3D407837A29B97D42B12F2 /* GameContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameContent.swift; sourceTree = "<group>"; };
+		90FEAB4D67FBBF7A04AFC218 /* TinyMindTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TinyMindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94727C7C37C68E93BD2D864A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9FDF4E26EF559E0D79ECD871 /* GameItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameItem.swift; sourceTree = "<group>"; };
+		B8FCF8973698A5B94C870D22 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BE9FF23905AC440BB25F899B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BFC04DF88F763E22E60BC1C8 /* GameContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameContentTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		12165CFFE5F5231FA58EFF84 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				57B39AC1CBC11666F70411E3 /* HapticManager.swift */,
+				42B4C303A7C0F3947059C82B /* SoundPlayer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3E823F034D81A0B7059B6B70 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				94727C7C37C68E93BD2D864A /* ContentView.swift */,
+				5598969516E52C579EC75C8F /* TinyMindApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3F5C9769F19D5D95E1F93822 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A3D407837A29B97D42B12F2 /* GameContent.swift */,
+				9FDF4E26EF559E0D79ECD871 /* GameItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5BC0E94276FEE418B3DBC66C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B8FCF8973698A5B94C870D22 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		74F711E3025A3AA443123A33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				356797ABA9991234738FC09E /* TinyMind.app */,
+				90FEAB4D67FBBF7A04AFC218 /* TinyMindTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E124DC63167009F3D881D66 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		94396AD353CB23D6A52BE19C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				125F1ACCC3666C653D7706A7 /* BackButton.swift */,
+				0F06F57365C4CFB22D0DA590 /* StarBurstView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9AEDD28A51E9DB6869CBA0B9 /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				4E2496913928CDDA5976112A /* AnimalGridView.swift */,
+			);
+			path = Animals;
+			sourceTree = "<group>";
+		};
+		AF6BD8276B15B489545EE480 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				72B0941C5C412254272D0B9F /* MusicPanelView.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		AF83D375F4F0002FD936552E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC04DF88F763E22E60BC1C8 /* GameContentTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		BAD525DC53034F213FB2B353 /* TinyMind */ = {
+			isa = PBXGroup;
+			children = (
+				3E823F034D81A0B7059B6B70 /* App */,
+				3F5C9769F19D5D95E1F93822 /* Models */,
+				DFF85493396E5A65BAD22C6E /* Resources */,
+				12165CFFE5F5231FA58EFF84 /* Services */,
+				DC434989ACE906BF096E98C8 /* Views */,
+			);
+			path = TinyMind;
+			sourceTree = "<group>";
+		};
+		D938DB1DCA79DE382100DAD5 = {
+			isa = PBXGroup;
+			children = (
+				AF83D375F4F0002FD936552E /* Tests */,
+				BAD525DC53034F213FB2B353 /* TinyMind */,
+				74F711E3025A3AA443123A33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC434989ACE906BF096E98C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AEDD28A51E9DB6869CBA0B9 /* Animals */,
+				94396AD353CB23D6A52BE19C /* Common */,
+				5BC0E94276FEE418B3DBC66C /* Home */,
+				AF6BD8276B15B489545EE480 /* Music */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFF85493396E5A65BAD22C6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E124DC63167009F3D881D66 /* Sounds */,
+				BE9FF23905AC440BB25F899B /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75A1944C204138BC2C256179 /* TinyMindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D213A220A879528140EF9D39 /* Build configuration list for PBXNativeTarget "TinyMindTests" */;
+			buildPhases = (
+				240E4B4FA419139A86117FCD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776C8C9581545F36B9890A88 /* PBXTargetDependency */,
+			);
+			name = TinyMindTests;
+			packageProductDependencies = (
+			);
+			productName = TinyMindTests;
+			productReference = 90FEAB4D67FBBF7A04AFC218 /* TinyMindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8928902DF6B624EB053ACCA2 /* TinyMind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E634E8994AE0629D9C29632 /* Build configuration list for PBXNativeTarget "TinyMind" */;
+			buildPhases = (
+				D16E336C27745CA1F1B634A0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyMind;
+			packageProductDependencies = (
+			);
+			productName = TinyMind;
+			productReference = 356797ABA9991234738FC09E /* TinyMind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		652203B84E4077B5C38E3E79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					75A1944C204138BC2C256179 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+					8928902DF6B624EB053ACCA2 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3FD7A89487DA19FB5479BF51 /* Build configuration list for PBXProject "TinyMind" */;
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ru,
+			);
+			mainGroup = D938DB1DCA79DE382100DAD5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 74F711E3025A3AA443123A33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8928902DF6B624EB053ACCA2 /* TinyMind */,
+				75A1944C204138BC2C256179 /* TinyMindTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		240E4B4FA419139A86117FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD840F45A08888A874453DDB /* GameContentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D16E336C27745CA1F1B634A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD223A158EE814E000CE18B /* AnimalGridView.swift in Sources */,
+				CD6392A858BFBB5586C9BE6A /* BackButton.swift in Sources */,
+				CAA21922C195A834A3E745A4 /* ContentView.swift in Sources */,
+				99F1203C499C0A0FFC4AEE72 /* GameContent.swift in Sources */,
+				56ED5E862F5F8CBE862D1EE2 /* GameItem.swift in Sources */,
+				DC8E44A14E3E28F458C3D007 /* HapticManager.swift in Sources */,
+				54918B9B31A1E34282585898 /* HomeView.swift in Sources */,
+				B7F881F225808DEE52D3290D /* MusicPanelView.swift in Sources */,
+				2EA1CE971FC285C0530D2DBE /* SoundPlayer.swift in Sources */,
+				8D70D25DAAE896FD615B42CB /* StarBurstView.swift in Sources */,
+				DE89D7D39336AF4F24F73EA5 /* TinyMindApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		776C8C9581545F36B9890A88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8928902DF6B624EB053ACCA2 /* TinyMind */;
+			targetProxy = 42183539254169C93D69EC25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F6336545BD8C009B1BF7A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinymind.TinyMindTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyMind.app/TinyMind";
+			};
+			name = Release;
+		};
+		21CFD70B84B2274E47D9B646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TinyMind;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = TinyMind;
+				SDKROOT = iphoneos;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		225AB7055A1704AB5AA0D193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TinyMind;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = TinyMind;
+				SDKROOT = iphoneos;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		491C78F773EADF587712602A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TinyMind/Resources/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinymind.TinyMind;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A46C285460046D3F73BE8339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TinyMind/Resources/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinymind.TinyMind;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF88B09FE758C5996E15C100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinymind.TinyMindTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyMind.app/TinyMind";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E634E8994AE0629D9C29632 /* Build configuration list for PBXNativeTarget "TinyMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491C78F773EADF587712602A /* Debug */,
+				A46C285460046D3F73BE8339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3FD7A89487DA19FB5479BF51 /* Build configuration list for PBXProject "TinyMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225AB7055A1704AB5AA0D193 /* Debug */,
+				21CFD70B84B2274E47D9B646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D213A220A879528140EF9D39 /* Build configuration list for PBXNativeTarget "TinyMindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF88B09FE758C5996E15C100 /* Debug */,
+				1F6336545BD8C009B1BF7A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 652203B84E4077B5C38E3E79 /* Project object */;
+}
