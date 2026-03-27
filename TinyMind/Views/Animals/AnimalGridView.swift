@@ -92,7 +92,7 @@ struct AnimalGridView: View {
     private func onTap(_ item: GameItem) {
         HapticManager.tap()
         tappedItem = item
-        soundPlayer.playWithWord(sound: item.soundFile, word: item.wordFile)
+        soundPlayer.playItemSound(item)
 
         // Звёздочки через секунду
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) {
@@ -113,17 +113,16 @@ struct AnimalCardView: View {
 
     var body: some View {
         Button(action: onTap) {
-            VStack(spacing: 12) {
-                Image(systemName: item.imageName)
-                    .font(.system(size: 60))
-                    .foregroundStyle(item.imageColor)
+            VStack(spacing: 8) {
+                Text(item.emoji)
+                    .font(.system(size: 70))
 
                 Text(item.displayName)
                     .font(.system(size: 20, weight: .bold, design: .rounded))
                     .foregroundStyle(.primary)
             }
             .frame(maxWidth: .infinity)
-            .frame(height: 160)
+            .frame(height: 170)
             .background(.white, in: RoundedRectangle(cornerRadius: 24))
             .shadow(color: .black.opacity(0.08), radius: 8, y: 4)
             .scaleEffect(isTapped ? 1.15 : 1.0)

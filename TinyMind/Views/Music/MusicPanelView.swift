@@ -74,10 +74,9 @@ struct InstrumentButton: View {
 
     var body: some View {
         Button(action: onTap) {
-            VStack(spacing: 10) {
-                Image(systemName: instrument.imageName)
-                    .font(.system(size: 50))
-                    .foregroundStyle(instrument.imageColor)
+            VStack(spacing: 8) {
+                Text(instrument.emoji)
+                    .font(.system(size: 56))
 
                 Text(instrument.displayName)
                     .font(.system(size: 14, weight: .semibold, design: .rounded))

@@ -11,20 +11,19 @@ struct GameItem: Identifiable, Hashable {
     let id: String
     let category: GameCategory
     let displayName: String
-    let imageName: String       // SF Symbol or asset name
-    let imageColor: Color
-    let soundFile: String?      // "cat_sound" (без расширения)
-    let wordFile: String?       // "cat_word"
+    let emoji: String
+    let soundFile: String?
+    let phrase: String?         // фраза для озвучки: "Это кошка! Мяу!"
 }
 
 enum GameMode: String, CaseIterable, Identifiable {
-    case animals = "animals"
-    case objects = "objects"
-    case guessSound = "guessSound"
-    case colors = "colors"
-    case shapes = "shapes"
-    case counting = "counting"
-    case music = "music"
+    case animals
+    case objects
+    case guessSound
+    case colors
+    case shapes
+    case counting
+    case music
 
     var id: String { rawValue }
 
@@ -40,15 +39,15 @@ enum GameMode: String, CaseIterable, Identifiable {
         }
     }
 
-    var icon: String {
+    var emoji: String {
         switch self {
-        case .animals: return "cat.fill"
-        case .objects: return "car.fill"
-        case .guessSound: return "ear.fill"
-        case .colors: return "paintpalette.fill"
-        case .shapes: return "triangle.fill"
-        case .counting: return "hand.fingers.spread"
-        case .music: return "music.note"
+        case .animals: return "🐱"
+        case .objects: return "🚗"
+        case .guessSound: return "👂"
+        case .colors: return "🎨"
+        case .shapes: return "🔷"
+        case .counting: return "🔢"
+        case .music: return "🎵"
         }
     }
 

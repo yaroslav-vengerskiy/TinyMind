@@ -54,10 +54,9 @@ struct ModeButton: View {
 
     var body: some View {
         Button(action: action) {
-            VStack(spacing: 10) {
-                Image(systemName: mode.icon)
-                    .font(.system(size: 44))
-                    .foregroundStyle(.white)
+            VStack(spacing: 8) {
+                Text(mode.emoji)
+                    .font(.system(size: 50))
 
                 Text(mode.title)
                     .font(.system(size: 16, weight: .semibold, design: .rounded))
