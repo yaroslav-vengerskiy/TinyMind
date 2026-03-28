@@ -18,9 +18,10 @@ final class SoundPlayer: ObservableObject {
             .first
     }
 
-    /// Воспроизводит аудиофайл из бандла
-    func play(_ filename: String, extension ext: String = "m4a") {
-        guard let url = Bundle.main.url(forResource: filename, withExtension: ext) else {
+    /// Воспроизводит аудиофайл из бандла (ищет m4a, затем mp3)
+    func play(_ filename: String, extension ext: String? = nil) {
+        let extensions = ext.map { [$0] } ?? ["m4a", "mp3", "wav"]
+        guard let url = extensions.lazy.compactMap({ Bundle.main.url(forResource: filename, withExtension: $0) }).first else {
             return
         }
         do {

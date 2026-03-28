@@ -7,22 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039E681899D22BB8D9B677EE /* duck_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB24FD829ED9C14A635C175 /* duck_sound.mp3 */; };
 		045D731208D2F9A50C56D4BC /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = 6838259660D40BCAD7C29509 /* lion.png */; };
+		0CF09BC67CD4939CE85BAB27 /* dog_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBDEBB212845A656C68B0A6E /* dog_sound.mp3 */; };
+		15C745B84376CA069898F797 /* cat_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C7079A5AA45A27F2AFE362D /* cat_sound.mp3 */; };
+		1686883F1054038C063D21A8 /* sheep_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3611160E87E9B58E3102667 /* sheep_sound.mp3 */; };
+		1B42D47D8FD3B7FCD04CCDCB /* bird_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A20817F9BDA3620F8C093968 /* bird_sound.mp3 */; };
 		25FA09466294EB99D7D6B91C /* mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = D5C784407053B5248FD194C8 /* mouse.png */; };
 		27CA8570BC6E7F2B4305CAC2 /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E49EC72CE4BB64B5F473CB /* monkey.png */; };
+		2E05AEC8969A818D4EEB4ABA /* horse_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2BA67CEBB21F53F681F361DA /* horse_sound.mp3 */; };
 		2EA1CE971FC285C0530D2DBE /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4C303A7C0F3947059C82B /* SoundPlayer.swift */; };
 		304F8C85B4177FFF4FBE5D0C /* chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = 14725F1CADF69E94F3B94F5E /* chicken.png */; };
 		33902809A1CE8173D256CD7D /* sheep.png in Resources */ = {isa = PBXBuildFile; fileRef = 114C67C507DC71A5773F6FBF /* sheep.png */; };
+		37EF28AF7D734F2CF972CDF2 /* rabbit_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BFF0E5A4CE2800405EA06FC /* rabbit_sound.mp3 */; };
+		38F4518CD5ED0FDD06AC89E8 /* monkey_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ABD063F0B2FE135A89390E95 /* monkey_sound.mp3 */; };
 		3924EFF6805406DB8FDE2A17 /* pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C737DDDECDCA78021AB480 /* pig.png */; };
 		54918B9B31A1E34282585898 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FCF8973698A5B94C870D22 /* HomeView.swift */; };
+		56341D56B379EB76E960DA64 /* pig_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D50B75A3D5B3925521F04F2 /* pig_sound.mp3 */; };
 		56ED5E862F5F8CBE862D1EE2 /* GameItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF4E26EF559E0D79ECD871 /* GameItem.swift */; };
 		6703F548158C226BE594DA42 /* bear.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C39AC711E47B820B5EBADF /* bear.png */; };
+		6754484DFA4FB9109394BD25 /* elephant_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 256D57F09015FCC00F5B58FC /* elephant_sound.mp3 */; };
+		700D471949240881CADA09D1 /* frog_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47A7E059C2E53021A540FBC7 /* frog_sound.mp3 */; };
 		8D70D25DAAE896FD615B42CB /* StarBurstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06F57365C4CFB22D0DA590 /* StarBurstView.swift */; };
+		929320B5E872A9A1E76D28D5 /* lion_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BE62B1E8BDAB9BE9A1030AD /* lion_sound.mp3 */; };
 		994F5CA78BDABF30FE8CCCB8 /* cow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E0AEBA8E22CFE08EFDAA187 /* cow.png */; };
 		99F1203C499C0A0FFC4AEE72 /* GameContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3D407837A29B97D42B12F2 /* GameContent.swift */; };
 		B310597F4DD557D5D5EF3E0A /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C449CC9B679CB5031C07C70 /* cat.png */; };
 		B7F881F225808DEE52D3290D /* MusicPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B0941C5C412254272D0B9F /* MusicPanelView.swift */; };
 		BFD223A158EE814E000CE18B /* AnimalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2496913928CDDA5976112A /* AnimalGridView.swift */; };
+		C80A55372DE8773B29B78FF1 /* bear_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 495AE5623C0810C934B5F7AE /* bear_sound.mp3 */; };
 		CAA21922C195A834A3E745A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94727C7C37C68E93BD2D864A /* ContentView.swift */; };
 		CC6B8009876B7BF5FA8B311E /* frog.png in Resources */ = {isa = PBXBuildFile; fileRef = F26CE796E1A13313B583B4A4 /* frog.png */; };
 		CD6392A858BFBB5586C9BE6A /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125F1ACCC3666C653D7706A7 /* BackButton.swift */; };
@@ -30,8 +43,11 @@
 		D49C3C2820FF12674A9DBE41 /* duck.png in Resources */ = {isa = PBXBuildFile; fileRef = E96FBFFB4ED549761C8001E0 /* duck.png */; };
 		D825A0DF17091C8B89A39A23 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = AAAA6E698369B155E60E2976 /* bird.png */; };
 		D9EEADD93C55B6A103F4D036 /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BE05F20EEB90C890FE7249 /* elephant.png */; };
+		DA484416899CC6284F1BEE19 /* chicken_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB8E2AD2200811FFA1EFC0FA /* chicken_sound.mp3 */; };
 		DC8E44A14E3E28F458C3D007 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B39AC1CBC11666F70411E3 /* HapticManager.swift */; };
+		DCF59671F8DB62AA32C5687C /* cow_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74BAEA6CBEA0F4BA5B010964 /* cow_sound.mp3 */; };
 		DE89D7D39336AF4F24F73EA5 /* TinyMindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598969516E52C579EC75C8F /* TinyMindApp.swift */; };
+		E259CCD7323EB21835EC18E3 /* mouse_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33D1B0F3137A3B21F3D6120E /* mouse_sound.mp3 */; };
 		E2EA9D5622E3F18A2219F866 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = E687EB4E29DE342450F605F2 /* dog.png */; };
 		E72B83F72FEF746EDE3AE81B /* rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = 671CE9634C2DE1A234DCBED8 /* rabbit.png */; };
 		EFE3EFB7EB3D150D5E3A34DF /* horse.png in Resources */ = {isa = PBXBuildFile; fileRef = 9734820EE48BE875CAC4CD27 /* horse.png */; };
@@ -49,13 +65,20 @@
 
 /* Begin PBXFileReference section */
 		01BE05F20EEB90C890FE7249 /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
+		0BFF0E5A4CE2800405EA06FC /* rabbit_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rabbit_sound.mp3; sourceTree = "<group>"; };
 		0F06F57365C4CFB22D0DA590 /* StarBurstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBurstView.swift; sourceTree = "<group>"; };
 		114C67C507DC71A5773F6FBF /* sheep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sheep.png; sourceTree = "<group>"; };
 		125F1ACCC3666C653D7706A7 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		14725F1CADF69E94F3B94F5E /* chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken.png; sourceTree = "<group>"; };
+		1D50B75A3D5B3925521F04F2 /* pig_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig_sound.mp3; sourceTree = "<group>"; };
 		1E0AEBA8E22CFE08EFDAA187 /* cow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cow.png; sourceTree = "<group>"; };
+		256D57F09015FCC00F5B58FC /* elephant_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elephant_sound.mp3; sourceTree = "<group>"; };
+		2BA67CEBB21F53F681F361DA /* horse_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = horse_sound.mp3; sourceTree = "<group>"; };
+		33D1B0F3137A3B21F3D6120E /* mouse_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mouse_sound.mp3; sourceTree = "<group>"; };
 		356797ABA9991234738FC09E /* TinyMind.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TinyMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B4C303A7C0F3947059C82B /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		47A7E059C2E53021A540FBC7 /* frog_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frog_sound.mp3; sourceTree = "<group>"; };
+		495AE5623C0810C934B5F7AE /* bear_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bear_sound.mp3; sourceTree = "<group>"; };
 		49E49EC72CE4BB64B5F473CB /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
 		4E2496913928CDDA5976112A /* AnimalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridView.swift; sourceTree = "<group>"; };
 		5598969516E52C579EC75C8F /* TinyMindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyMindApp.swift; sourceTree = "<group>"; };
@@ -64,21 +87,30 @@
 		6838259660D40BCAD7C29509 /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
 		6C449CC9B679CB5031C07C70 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 		72B0941C5C412254272D0B9F /* MusicPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPanelView.swift; sourceTree = "<group>"; };
+		74BAEA6CBEA0F4BA5B010964 /* cow_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cow_sound.mp3; sourceTree = "<group>"; };
 		7A3D407837A29B97D42B12F2 /* GameContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameContent.swift; sourceTree = "<group>"; };
+		7BE62B1E8BDAB9BE9A1030AD /* lion_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lion_sound.mp3; sourceTree = "<group>"; };
 		90FEAB4D67FBBF7A04AFC218 /* TinyMindTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TinyMindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94727C7C37C68E93BD2D864A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9734820EE48BE875CAC4CD27 /* horse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horse.png; sourceTree = "<group>"; };
 		99C737DDDECDCA78021AB480 /* pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig.png; sourceTree = "<group>"; };
+		9C7079A5AA45A27F2AFE362D /* cat_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat_sound.mp3; sourceTree = "<group>"; };
 		9FDF4E26EF559E0D79ECD871 /* GameItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameItem.swift; sourceTree = "<group>"; };
+		A20817F9BDA3620F8C093968 /* bird_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bird_sound.mp3; sourceTree = "<group>"; };
 		AAAA6E698369B155E60E2976 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+		ABD063F0B2FE135A89390E95 /* monkey_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = monkey_sound.mp3; sourceTree = "<group>"; };
 		B8FCF8973698A5B94C870D22 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BBDEBB212845A656C68B0A6E /* dog_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog_sound.mp3; sourceTree = "<group>"; };
 		BE9FF23905AC440BB25F899B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BFC04DF88F763E22E60BC1C8 /* GameContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameContentTests.swift; sourceTree = "<group>"; };
 		C7C39AC711E47B820B5EBADF /* bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bear.png; sourceTree = "<group>"; };
+		CEB24FD829ED9C14A635C175 /* duck_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duck_sound.mp3; sourceTree = "<group>"; };
 		D5C784407053B5248FD194C8 /* mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouse.png; sourceTree = "<group>"; };
+		DB8E2AD2200811FFA1EFC0FA /* chicken_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chicken_sound.mp3; sourceTree = "<group>"; };
 		E687EB4E29DE342450F605F2 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
 		E96FBFFB4ED549761C8001E0 /* duck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duck.png; sourceTree = "<group>"; };
 		F26CE796E1A13313B583B4A4 /* frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog.png; sourceTree = "<group>"; };
+		F3611160E87E9B58E3102667 /* sheep_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sheep_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -152,8 +184,32 @@
 		7E124DC63167009F3D881D66 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				8F7BACD5AE6AD20BF9D43664 /* animals */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		8F7BACD5AE6AD20BF9D43664 /* animals */ = {
+			isa = PBXGroup;
+			children = (
+				495AE5623C0810C934B5F7AE /* bear_sound.mp3 */,
+				A20817F9BDA3620F8C093968 /* bird_sound.mp3 */,
+				9C7079A5AA45A27F2AFE362D /* cat_sound.mp3 */,
+				DB8E2AD2200811FFA1EFC0FA /* chicken_sound.mp3 */,
+				74BAEA6CBEA0F4BA5B010964 /* cow_sound.mp3 */,
+				BBDEBB212845A656C68B0A6E /* dog_sound.mp3 */,
+				CEB24FD829ED9C14A635C175 /* duck_sound.mp3 */,
+				256D57F09015FCC00F5B58FC /* elephant_sound.mp3 */,
+				47A7E059C2E53021A540FBC7 /* frog_sound.mp3 */,
+				2BA67CEBB21F53F681F361DA /* horse_sound.mp3 */,
+				7BE62B1E8BDAB9BE9A1030AD /* lion_sound.mp3 */,
+				ABD063F0B2FE135A89390E95 /* monkey_sound.mp3 */,
+				33D1B0F3137A3B21F3D6120E /* mouse_sound.mp3 */,
+				1D50B75A3D5B3925521F04F2 /* pig_sound.mp3 */,
+				0BFF0E5A4CE2800405EA06FC /* rabbit_sound.mp3 */,
+				F3611160E87E9B58E3102667 /* sheep_sound.mp3 */,
+			);
+			path = animals;
 			sourceTree = "<group>";
 		};
 		94396AD353CB23D6A52BE19C /* Common */ = {
@@ -313,21 +369,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				6703F548158C226BE594DA42 /* bear.png in Resources */,
+				C80A55372DE8773B29B78FF1 /* bear_sound.mp3 in Resources */,
 				D825A0DF17091C8B89A39A23 /* bird.png in Resources */,
+				1B42D47D8FD3B7FCD04CCDCB /* bird_sound.mp3 in Resources */,
 				B310597F4DD557D5D5EF3E0A /* cat.png in Resources */,
+				15C745B84376CA069898F797 /* cat_sound.mp3 in Resources */,
 				304F8C85B4177FFF4FBE5D0C /* chicken.png in Resources */,
+				DA484416899CC6284F1BEE19 /* chicken_sound.mp3 in Resources */,
 				994F5CA78BDABF30FE8CCCB8 /* cow.png in Resources */,
+				DCF59671F8DB62AA32C5687C /* cow_sound.mp3 in Resources */,
 				E2EA9D5622E3F18A2219F866 /* dog.png in Resources */,
+				0CF09BC67CD4939CE85BAB27 /* dog_sound.mp3 in Resources */,
 				D49C3C2820FF12674A9DBE41 /* duck.png in Resources */,
+				039E681899D22BB8D9B677EE /* duck_sound.mp3 in Resources */,
 				D9EEADD93C55B6A103F4D036 /* elephant.png in Resources */,
+				6754484DFA4FB9109394BD25 /* elephant_sound.mp3 in Resources */,
 				CC6B8009876B7BF5FA8B311E /* frog.png in Resources */,
+				700D471949240881CADA09D1 /* frog_sound.mp3 in Resources */,
 				EFE3EFB7EB3D150D5E3A34DF /* horse.png in Resources */,
+				2E05AEC8969A818D4EEB4ABA /* horse_sound.mp3 in Resources */,
 				045D731208D2F9A50C56D4BC /* lion.png in Resources */,
+				929320B5E872A9A1E76D28D5 /* lion_sound.mp3 in Resources */,
 				27CA8570BC6E7F2B4305CAC2 /* monkey.png in Resources */,
+				38F4518CD5ED0FDD06AC89E8 /* monkey_sound.mp3 in Resources */,
 				25FA09466294EB99D7D6B91C /* mouse.png in Resources */,
+				E259CCD7323EB21835EC18E3 /* mouse_sound.mp3 in Resources */,
 				3924EFF6805406DB8FDE2A17 /* pig.png in Resources */,
+				56341D56B379EB76E960DA64 /* pig_sound.mp3 in Resources */,
 				E72B83F72FEF746EDE3AE81B /* rabbit.png in Resources */,
+				37EF28AF7D734F2CF972CDF2 /* rabbit_sound.mp3 in Resources */,
 				33902809A1CE8173D256CD7D /* sheep.png in Resources */,
+				1686883F1054038C063D21A8 /* sheep_sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
